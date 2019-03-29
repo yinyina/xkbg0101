@@ -1,0 +1,63 @@
+*{ padding:0px; margin:0px; list-style-type:none;}
+body{ color:#333; font-size:12px; line-height:24px; text-align:left; font-family:Microsoft YaHei,"微软雅黑","黑体","宋体"; background:#D9DED8 url(../images/bg.jpg) no-repeat center top; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg.jpg',sizingMethod='scale'); -moz-background-size:100% 100%; background-size:100% 100%; height:593px;}
+a{ font-size:12px; text-decoration:none; color:#333; blr:expression(this.onFocus=this.blur()); outline:none;}
+a:hover { font-size:12px; text-decoration:none; blr:expression(this.onFocus=this.blur()); outline:none;}
+.clear_both { clear:both;}
+.yy_text_yincang { width: 20em; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+
+
+/*课程标题*/
+.header { width:100%; height:85px; background:url(../images/header_bg.png) repeat-x center top;}
+.header .header_box { height:85px;  margin:0 auto; background:url(../images/header_img.png) no-repeat center top;}
+.header .header_box .coursename { width:1040px; line-height:85px; margin:0 auto; color:#fff; font-size:26px;}
+
+
+.content { position:relative; width:100%; margin-top:20px; height:488px;}
+.content .main_bg { position:absolute; left:0; top:0; z-index:1; width:100%; height:100%; background:#000; filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;}
+.content .main_box { position:absolute; left:0; top:0; z-index:2; width:100%;}
+.content .dqwz { width:1040px; margin:0 auto; color:#fff; height:30px; line-height:30px; font-size:14px;}
+.content .main { width:1040px; margin:0 auto; border:1px solid #323232; height:430px;}
+
+/*课程内容区*/
+.content .main .coursenr_box { display:inline; float:left; width:764px;}
+.content .main .coursenr_box .coursenr { width:100%; height:430px; background:#fff; overflow:hidden;}
+
+/*课程目录*/
+.content .main .courselist { display:inline; float:right; width:275px; border-left:1px solid #323232;}
+.content .main .courselist .stit { padding:0 10px; height:40px; line-height:40px; background:url(../images/r_titbg.jpg) no-repeat center center; color:#fff; font-size:18px;}
+.content .main .courselist .menu { padding:10px 0; height:370px; overflow:hidden; overflow-y:auto; background:#f2fffb url(../images/xian.png) repeat-y 20px top;}
+.content .main .courselist .menu li {}
+.content .main .courselist .menu li p { padding-left:35px; line-height:37px; color:#000; font-size:16px; font-weight:700; background:url(../images/ct.png) no-repeat 13px center; cursor:pointer;}
+.content .main .courselist .menu li p.p_on { color:#fff; background:#00b06d url(../images/cur.png) no-repeat 13px center;}
+.content .main .courselist .menu li p.p_v_on { color:#fff; background:#00b06d url(../images/curv.png) no-repeat 13px center;}
+.content .main .courselist .menu li p.p_v_bg_on { color:#000; background:url(../images/ctv.png) no-repeat 13px center;}
+.content .main .courselist .menu li dl { display:none;}
+.content .main .courselist .menu li dl dd { padding-left:35px; width:240px; line-height:28px; cursor:pointer; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; background:url(../images/y_1.png) no-repeat 17px center; font-size:14px;}
+.content .main .courselist .menu li dd.dd_on { color:#fff; background:#00b06d url(../images/y_2.png) no-repeat 17px center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
